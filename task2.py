@@ -3,13 +3,14 @@ def jainsall(liste):
 
     for i in liste:
         teller += i
-        nevner += i**2
+        nevner += i ** 2
 
-    teller = teller**2
-    nevner = len(liste)*nevner
+    teller = teller ** 2
+    nevner = len(liste) * nevner
 
     print('JFI er: ', teller / nevner)
 
 
-liste1 = [1,6,9]
+liste1 = [1, 6, 9]
+print("Task 2:")
 jainsall(liste1)
